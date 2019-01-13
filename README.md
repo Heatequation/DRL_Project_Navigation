@@ -25,4 +25,6 @@ The environment is considered to be solved when the average score over 100 conse
 
 ### Instructions
 
-To train the agent follow the instructions in `Navigation_Project.ipynb`. 
+Setup a python environment as described [here](https://github.com/udacity/deep-reinforcement-learning#dependencies).
+
+Then train the agent by following the instructions in `Navigation_Project.ipynb`. 
