@@ -21,7 +21,7 @@ The environment is considered to be solved when the average score over 100 conse
     - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
     - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
 
-2. Place the file in this repository's root folder, and unzip (or decompress) the file. 
+2. Unzip file in this repository's root folder.
 
 ### Instructions
 
