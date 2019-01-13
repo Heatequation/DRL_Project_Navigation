@@ -21,6 +21,6 @@ The trained aged solved the environment in 462 episodes. The following plot show
 
 ### Ideas for Improvement
 More advanced techniques could be employed. For example:
-* a double DQN: Deep-Q-Learning tends to overestimate action values. Using a double DQN instead (as laid out in [this research paper](https://arxiv.org/abs/1509.06461)) can help solve this issue.
-* a dueling DQN: The main benefit is that a duelling DQN generalizes learning across actions without imposing any change to the underlying reinforcement learning algorithm. The dueling DQN is described in [this research paper](https://arxiv.org/abs/1511.06581).
-* prioritized experience replay: Uniform sampling from the experience replay buffer might lead to important observations being neglected. Using prioritized experience replay (as laid out in [this research paper](https://arxiv.org/abs/1511.05952)) can help solve this issue.
+* Double DQN: Deep-Q-Learning tends to overestimate action values. Using a double DQN instead (as laid out in [this research paper](https://arxiv.org/abs/1509.06461)) can help solve this issue.
+* Dueling DQN: the main benefit is that a duelling DQN generalizes learning across actions without imposing any change to the underlying reinforcement learning algorithm. The dueling DQN is described in [this research paper](https://arxiv.org/abs/1511.06581).
+* Prioritized Experience Replay: uniform sampling from the experience replay buffer might lead to important observations being neglected. Using prioritized experience replay (as laid out in [this research paper](https://arxiv.org/abs/1511.05952)) can help solve this issue.
