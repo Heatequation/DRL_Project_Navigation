@@ -3,6 +3,7 @@ This is a project to demonstrate the application of deep reinforcement learning.
 The training was executed in the iPython notebook. The agent is defined in file agent.py and the Q-Network used to make the agent learn is in file model.py
 
 ## Project Details
+The environment in which the agent learns can be described in the following way:
 * state space: has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction
 * action space: Four discrete actions are available, corresponding to move forward, move backward, turn left, and turn right.
 * reward: A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana
